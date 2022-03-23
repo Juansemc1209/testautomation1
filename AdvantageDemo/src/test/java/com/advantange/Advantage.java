@@ -27,7 +27,7 @@ public class Advantage {
         Thread.sleep(5000);
         driver.findElement(By.xpath("//*[@id='menuUser']")).click();
         Thread.sleep(3000);
-
+        System.out.println("Pruebas");
 
         /*
         driver.findElement(By.xpath("//a[@class='create-new-account ng-scope']")).click();
